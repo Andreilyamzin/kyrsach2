@@ -45,7 +45,7 @@ class ExaminerServiceImplTest {
     void testRandom() {
         when(javaQuestionService.getRandomQuestion()).thenReturn(JAVA_QUESTIONS.get(0));
 
-        when(javaQuestionService.getRandomQuestion())
+        when(mathQuestionServise.getRandomQuestion())
                 .thenReturn(MATH_QUESTIONS.get(0))
                 .thenReturn(MATH_QUESTIONS.get(1));
 
